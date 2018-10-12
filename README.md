@@ -12,7 +12,7 @@ CrossPack-AVR seems pretty cool from the outside with its convenient installer b
 2) List every CrossPack folder with `ls | grep CrossPack`
 3) For each folder named `CrossPack-AVR-*`
     1) `cd <folder-name>`
-    2) `./uninstall`
+    2) `sudo ./uninstall`
     3) Follow on-screen instructions
 
 ### Installing [Homebrew](https://brew.sh) (`brew`)
