@@ -6,7 +6,7 @@ A repo containing tips and tricks for AVR development
 
 ### Removing CrossPack-AVR
 
-CrossPack-AVR seems pretty cool from the outside with its convinient installer but is really outdated. The bundled `avrdude` and `avr-libc` are several version behind the latest release. Plus, usb communication doesn't seem to work really well. Here's how to uninstall it:
+CrossPack-AVR seems pretty cool from the outside with its convenient installer but is really outdated. The bundled `avrdude` and `avr-libc` are several versions behind the latest release. Plus, USB communication doesn't seem to work really well. Here's how to uninstall it:
 
 1) Open `Terminal` then enter `cd /usr/local/`
 2) List every CrossPack folder with `ls | grep CrossPack`
@@ -27,5 +27,5 @@ CrossPack-AVR seems pretty cool from the outside with its convinient installer b
 In `Terminal`, run the following commands:
 1) `brew tap osx-cross/avr`
 2) `brew install avr-binutils avr-gcc avr-gdb avrdude`
-3) Let cook in the oven at 350°F for 30 minutes (Step 2. will take some time and will make your mac heat up a bit)
+3) Let cook in the oven at 350°F for 30 minutes _(step 2. will take some time and will make your mac heat up a bit)_
 4) Verify installation with `avrdude --version` and `avr-gcc --version`
